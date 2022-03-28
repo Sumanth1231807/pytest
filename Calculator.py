@@ -1,22 +1,21 @@
-def add2no(x,y):
-    return x+y
-def sub2no(x,y):
-    return x-y
-def mul2no(x,y):
-    return x*y
-def div2no(x,y):
-    return x/y
+def add2no(a,b):
+    return a+b
+def sub2no(a,b):
+    return  a-b
+def mul2no(a,b):
+    return a*b
+def div2no(a,b):
+    return a/b
 
-if __name__ =="__main__":
-    a=int(input("enter 1st number"))
-    b=int(input("enter 2nd number"))
+if __name__=="__main__":
+    a=int (input("enter num1:"))
+    b=int (input("enter num2:"))
 
-
-    sum=add2no(a,b)
-    print(sum)
-    diff = sub2no(a, b)
+    add=add2no(a,b)
+    print(add)
+    sub=sub2no(a,b)
     print(sub)
-    mul = mul2no(a, b)
+    mul=mul2no(a,b)
     print(mul)
-    div = div2no(a, b)
+    div=div2no(a,b)
     print(div)
